@@ -23,7 +23,17 @@ class LoginPageState extends State<LoginPage>{
   Widget build(BuildContext context){
     return new Scaffold(
       backgroundColor: Colors.blueGrey,
-      body: new Container()
+      body: new Stack(
+        fit: StackFit.expand,
+        children: <Widget>[
+          new Image(
+              image: new AssetImage("images/Dog.jpg"),
+              fit: BoxFit.cover,
+              colorBlendMode: BlendMode.darken,
+              color: Colors.black54
+            )
+        ],
+      )
     );
   }
 }
