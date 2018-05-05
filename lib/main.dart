@@ -31,7 +31,17 @@ class LoginPageState extends State<LoginPage>{
               fit: BoxFit.cover,
               colorBlendMode: BlendMode.darken,
               color: Colors.black54
-            )
+            ),
+          new Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              new Image(
+
+                  image: new AssetImage("images/Logo.png"),
+                  width: 200.0,
+              )
+            ],
+          )
         ],
       )
     );
