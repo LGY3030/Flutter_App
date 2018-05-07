@@ -29,6 +29,7 @@ flutter:
   assets:
   - images/Logo.png
   - images/Dog.jpg
+  - images/logo2.png
 
   #  - images/a_dot_ham.jpeg
 
